@@ -145,7 +145,7 @@
             }
 
             var connection = new signalR.HubConnectionBuilder()
-                        .withUrl('/chat')
+                        .withUrl('/chat?testKey=%23%2C%2D%2E%2F')
                         .build();
                             
             bindConnectionMessage(connection);
