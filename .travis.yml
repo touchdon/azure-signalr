@@ -14,4 +14,4 @@ addons:
     packages:
     - libunwind8
 script:
-- "./build.sh --ci /p:BuildNumber=$((10000+TRAVIS_BUILD_NUMBER))\;DisableNet461Tests=true"
+- "./build.sh --ci /p:BuildNumber=$((10000+TRAVIS_BUILD_NUMBER))\\;DisableNet461Tests=true"
